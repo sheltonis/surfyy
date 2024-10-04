@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return '''
-    <h1>Simple Web Proxy</h1>
+    <h1>surfyy</h1>
     <form method="POST" action="/proxy">
         <input type="text" name="url" placeholder="Enter URL to browse">
         <input type="submit" value="Go">
